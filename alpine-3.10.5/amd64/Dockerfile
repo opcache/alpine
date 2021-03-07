@@ -17,5 +17,5 @@ LABEL maintainer="Dominic Taylor <dominic@yobasystems.co.uk>" \
     org.opencontainers.image.revision=$VCS_REF \
     org.opencontainers.image.created=$BUILD_DATE
 
-ADD alpine-minirootfs-3.10.5-x86_64.tar.gz /
+ADD alpine-3.10.5/amd64/alpine-minirootfs-3.10.5-x86_64.tar.gz /
 CMD ["/bin/sh"]
